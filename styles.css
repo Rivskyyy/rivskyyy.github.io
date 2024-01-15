@@ -90,7 +90,7 @@ header, nav, main, footer {
   .video-container {
     justify-content: center;
     align-items: center;
-
+    flex-direction: column;
     padding-bottom: 56.25%; /* 16:9 aspect ratio for video on mobile */
     margin-top: 20px;
     position: relative;
