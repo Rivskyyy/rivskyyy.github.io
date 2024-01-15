@@ -58,6 +58,12 @@ header, nav, main, footer {
   margin: 20px;
 }
 
+.central-image {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
 @media only screen and (max-width: 600px) {
   .button img {
     width: 150px; /* Зменшує розмір фото-кнопок на мобільних пристроях */
@@ -71,5 +77,10 @@ header, nav, main, footer {
 
   .button {
     margin: 10px 0;
+  }
+
+  .central-image {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
