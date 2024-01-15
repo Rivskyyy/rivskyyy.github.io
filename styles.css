@@ -88,13 +88,15 @@ header, nav, main, footer {
 
 
   .video-container {
-    padding-bottom: 56.25%;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio for video on mobile */
     margin-top: 20px;
-     /* 16:9 aspect ratio for video on mobile */
+    position: relative; /* Додано властивість position */
   }
 
   .video-container iframe {
     width: 100%;
     height: 100%;
+    position: absolute; /* Додано властивість position */
+    top: 0; /* Додано властивість top */
   }
 }
